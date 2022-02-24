@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("../../components/container.css");
+@import url("../../components/card.css")
+@import url("../../components/avatar.css");
+@import url("../../components/banner.css");
+@import url("../../components/button.css"); 
+
+body  {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin : 0px
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.avatar {
+	width: 60px
+	height: 60px;
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	   background-color: #EF2F88;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+
+	}
+
+
+.container {
+  width: 600px
+  margin: 0 auto;
+  margin:30px;
+  padding:50px;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.banner {
+  background-image: url("../images/backg2.jpeg");
+  color: white
+  padding: 150px 0px;
+  background-size: cover;     
+  background-position: center;
+}
+
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+
+.cards {
+  display: flex;
+   flex-wrap: wrap;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  box-shadow: 0px 20px 30px silver;
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 200px;
+  flex-grow: 1 
+ 
+  
+
+}
+.Card img {
+  width: 150px;
+  border-radius: 6px;
+}
+.Card h3 {
+  flex-grow: 1;
+  padding-left: 30px;
+ 
